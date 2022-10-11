@@ -22,14 +22,14 @@ else:
         print("You answered this Question correctly")
     
 
-#Another Answer with convert the user input to integer
-_user_input = input("what is the product of 7 * 24 ?")
-_user_input_int :int = int(_user_input)
 
-while _user_input_int != 168 :
+#Another Answer with convert
+print("This is the Second Code")
+_user_input :int = int(input("what is the product of 7 * 24 ?"))
+
+while _user_input != 168 :
     print("Your Answer is wrong try again..")
-    _user_input = input("what is the product of 7 * 24 ?")
-    _user_input_int :int = int(_user_input)
+    _user_input :int = int(input("what is the product of 7 * 24 ?"))
     continue
 else:
         print("You answered this Question correctly")
