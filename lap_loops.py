@@ -7,8 +7,7 @@ for i in range(45, 210):
         continue
     elif i == 205:
         break
-    else:
-        print(i)
+    print(i)
 
 
 # 2
