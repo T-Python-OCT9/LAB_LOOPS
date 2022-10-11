@@ -2,7 +2,7 @@
 for i in range(45,210):
     if i==100:
         continue
-    elif i==206:
+    elif i==205:
         break 
     else:
         print(i)
