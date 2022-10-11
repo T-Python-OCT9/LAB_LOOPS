@@ -4,9 +4,9 @@
 for x in range(45, 210):
     if x == 100 :
         continue
+    print("Elements : ", x)
     if x == 205 :
         break
-    print("Elements : ", x)
 
 
 ## 2) Using a while loop and input , do the following :
