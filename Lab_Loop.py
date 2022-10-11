@@ -11,11 +11,11 @@ for x in range(45, 210):
 
 ## 2) Using a while loop and input , do the following :
 #Ask the the user : "what is the product of 7 * 24 ?"
-user_input = input("what is the product of 7 * 24 ?")
+user_input :int = int(input("what is the product of 7 * 24 ?"))
 #check if the answer is right then exit the loop and print "You answered this Question correctly"
-while user_input != "168" :
-    print("Your Answer is wrong try again..")
-    user_input = input("what is the product of 7 * 24 ?")
+while user_input != 168 :
+    print("Your Answer is wrong try again.." )
+    user_input :int = int(input("what is the product of 7 * 24 ?"))
     continue
 # if the answer is wrong, then print "Your Answer is wrong try again.." and show the user the question again.
 else:
@@ -23,14 +23,14 @@ else:
     
 
 
-#Another Answer with convert
+# Another Answer 
 print("This is the Second Code")
-_user_input :int = int(input("what is the product of 7 * 24 ?"))
-
-while _user_input != 168 :
-    print("Your Answer is wrong try again..")
+while True:
     _user_input :int = int(input("what is the product of 7 * 24 ?"))
-    continue
-else:
+    if _user_input == 7*24:
         print("You answered this Question correctly")
-    
+        break
+    else:
+        print("Your Answer is wrong try again..")
+
+
