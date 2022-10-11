@@ -11,12 +11,13 @@ for i in range(45, 210):
 #2
 result =int (input("what is the product of 7 * 24 ?"))
 
-while result == 168 :
-    print ("You answered this Question correctly")
-    break
-else:
+while result != 168 :
     
     result = int (input("what is the product of 7 * 24 ?"))
+    
+else:
+    print ("You answered this Question correctly")
+    
  ## LAB_LOOPS
 
 ## 1) Using range(),  make a range from 45 to 210, using a for loop iterate over the sequence and print the elements. Skip the number 100 and break the loop at 205
