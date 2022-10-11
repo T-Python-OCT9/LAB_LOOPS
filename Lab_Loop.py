@@ -21,3 +21,16 @@ while user_input != "168" :
 else:
         print("You answered this Question correctly")
     
+
+#Another Answer with convert
+_user_input = input("what is the product of 7 * 24 ?")
+_user_input_int :int = int(_user_input)
+
+while _user_input_int != 168 :
+    print("Your Answer is wrong try again..")
+    _user_input = input("what is the product of 7 * 24 ?")
+    _user_input_int :int = int(_user_input)
+    continue
+else:
+        print("You answered this Question correctly")
+    
