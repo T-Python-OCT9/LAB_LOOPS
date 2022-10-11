@@ -22,7 +22,7 @@ else:
         print("You answered this Question correctly")
     
 
-#Another Answer with convert
+#Another Answer with convert the user input to integer
 _user_input = input("what is the product of 7 * 24 ?")
 _user_input_int :int = int(_user_input)
 
