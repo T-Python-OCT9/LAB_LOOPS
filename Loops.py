@@ -1,16 +1,15 @@
 from cgi import print_arguments
 
 
-num : int = 210
+#num : int = 210
 
 for num in range(45,210) :
     if num == 100 :
         continue
-
-    print(num)
     if num == 205:
         break
 
+    print(num)
 
 #answer : int = 168
 user_input : str = ""
